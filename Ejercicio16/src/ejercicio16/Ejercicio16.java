@@ -21,18 +21,19 @@ public class Ejercicio16 {
         System.out.println("Ingrese el tamaño del vector");
         int n=leer.nextInt();
         int sum=0;
-      double [] vector = new double[n];
+      int [] vector = new int[n];
         for (int i = 0; i < n; i++) {
-            vector[i]=Math.random();
+            vector[i]= (int)(Math.random()*100);
            
         }
         System.out.println("Ingrese un número a buscar en el vector");
         double buscar=leer.nextDouble();
         for (int i = 0; i < n; i++) {
+                    
             if (vector[i]==buscar) {
                 sum=sum+1;
                 System.out.println("El nùmero està en el vector: "+i+1);
-                
+
             }
             
         }
