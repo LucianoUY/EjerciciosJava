@@ -27,7 +27,7 @@ public class Ejercicio16 {
            
         }
         System.out.println("Ingrese un número a buscar en el vector");
-        double buscar=leer.nextDouble();
+        int buscar=leer.nextInt();
         for (int i = 0; i < n; i++) {
                     
             if (vector[i]==buscar) {
