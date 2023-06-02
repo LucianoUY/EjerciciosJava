@@ -30,7 +30,7 @@ public class Ejercicio20 {
         }
        
         int sumaObjetivo = cM[0][0]+  cM[0][1]+cM[0][2]; 
-        for (int i = 1; i < 10; i++) {
+        for (int i = 1; i < 3; i++) {
             int sumaFila=cM[i][0]+cM[i][1]+cM[i][2];
             if (sumaFila!=sumaObjetivo) {
                 cMV=false;               
@@ -52,7 +52,7 @@ public class Ejercicio20 {
                 cMV=false;
             
         }
-        if (cMV=false) {
+        if (cMV==false) {
             System.out.println("No es un cuadrado mágico");
             
         }else System.out.println("Es un cuadrado mágico");
